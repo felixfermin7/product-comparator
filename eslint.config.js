@@ -19,5 +19,22 @@ export default tseslint.config([
       ecmaVersion: 2020,
       globals: globals.browser,
     },
+    rules: {
+      semi: ['error', 'always'], // Require semicolons
+      quotes: ['error', 'single'], // Enforce single quotes
+      'prefer-arrow-callback': ['error'],
+      'prefer-template': ['error'],
+      'prefer-destructuring': ['error', { object: true, array: true }],
+      'prefer-rest-params': ['error'],
+      'prefer-spread': ['error'],
+      'no-unsafe-optional-chaining': ['error'],
+      'default-param-last': ['error'],
+      'no-var': ['error'],
+      'prefer-const': ['error'],
+      'prefer-promise-reject-errors': ['error'],
+      'no-return-await': ['error'],
+      'no-unused-vars': ['error', { vars: 'all', args: 'none', ignoreRestSiblings: false }], // Disallow unused const and let
+      'eol-last': ['error', 'always'], // Require newline at the end of files
+    },
   },
-])
+]);
