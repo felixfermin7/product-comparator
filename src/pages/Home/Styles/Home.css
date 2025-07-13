@@ -7,95 +7,7 @@
   overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
-/* Header styles */
-.header {
-  background: yellow;
-  padding: 10px;
-  max-width: 100%;
-  box-sizing: border-box;
-  text-align: center;
-}
-
-/* View toggle styles */
-.view-toggle {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.view-toggle h3 {
-  margin: 0;
-}
-
-.view-toggle button {
-  margin-left: 10px;
-  padding: 5px 10px;
-  cursor: pointer;
-}
-
-/* Product cards container */
-.product-cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center; /* Center the cards horizontally */
-  margin: 0 auto; /* Center the content */
-}
-
-/* Default: 4 products per row */
-.product-cards > div {
-  flex: 1 1 calc(25% - 20px); /* 4 products per row */
-  box-sizing: border-box;
-}
-
-/* Responsive adjustments */
-@media (max-width: 1024px) {
-  .product-cards > div {
-    flex: 1 1 calc(33.333% - 20px); /* 3 products per row */
-  }
-}
-
-@media (max-width: 768px) {
-  .product-cards > div {
-    flex: 1 1 calc(50% - 20px); /* 2 products per row */
-  }
-}
-
-@media (max-width: 480px) {
-  .product-cards {
-    flex-direction: column; /* Stack cards vertically */
-    align-items: center; /* Center cards on small screens */
-  }
-
-  .product-cards > div {
-    flex: 1 1 100%; /* 1 product per row */
-    max-width: 100%; /* Ensure the card fits within the viewport */
-  }
-}
-
-/* Error message styles */
-.error {
-  color: red;
-  max-width: 100%;
-  box-sizing: border-box;
-  text-align: center;
-}
-
-/* Tabs container styles */
-.tab-content {
-  margin-top: 20px;
-  max-width: 100%;
-  box-sizing: border-box;
-}
-
 /* General utility styles */
-p {
-  margin: 0;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
 button {
   background-color: #007bff;
   color: white;
@@ -107,4 +19,10 @@ button {
 
 button:hover {
   background-color: #0056b3;
+}
+
+p {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
 }
