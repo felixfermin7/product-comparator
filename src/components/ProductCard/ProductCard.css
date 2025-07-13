@@ -1,0 +1,33 @@
+.product-card {
+  border: 1px solid #ccc;
+  padding: 12px;
+  width: 250px;
+}
+
+.product-card__discount {
+  color: red;
+  font-weight: bold;
+}
+
+.product-card__image {
+  width: 100%; /* Adjust image width to fill the container */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 150px; /* Set a maximum height for uniformity */
+  object-fit: contain; /* Ensure the image fits within the defined dimensions */
+}
+
+.product-card__original-price {
+  text-decoration: line-through;
+}
+
+.product-card__reviews {
+  margin: 0;
+}
+
+.product-card__seller {
+  margin: 0;
+}
+
+.product-card__button {
+  cursor: pointer;
+}
