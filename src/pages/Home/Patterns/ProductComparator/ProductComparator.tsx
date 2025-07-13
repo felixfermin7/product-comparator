@@ -1,5 +1,5 @@
-import { ProductCard } from '../../../../components/ProductCard';
-import { ProductTable } from '../../../../components/ProductTable';
+import { ProductCard } from '../../../../components/ProductCard/ProductCard';
+import { ProductTable } from '../../../../components/ProductTable/ProductTable';
 import type { Product } from '../../../../types/Product';
 import './ProductComparator.css';
 

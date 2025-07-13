@@ -1,0 +1,32 @@
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th, .product-table td {
+  text-align: center;
+  padding: 8px;
+}
+
+.product-table img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1024px) {
+  .product-table {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-table {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-table {
+    font-size: 0.7em;
+  }
+}
